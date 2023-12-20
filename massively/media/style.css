@@ -1,0 +1,114 @@
+@media (min-width:1436px) {
+    .menu{
+        display: none;
+    }
+}
+@media (max-width:1436px) {
+  .ANTE img,
+  .AUGUE img,
+  .ODIO img,
+  .PRIMIS img,
+  .TEMPUS img,
+  .sed img {
+    width: 50%
+  }
+  header {
+    display: none
+  }
+  .show2{
+    visibility: visible;
+  }
+ 
+}
+@media (max-width:1000px) {
+  .date h1 {
+    font-size: 50px
+  }
+  .ANTE img,
+  .AUGUE img,
+  .ODIO img,
+  .PRIMIS img,
+  .TEMPUS img,
+  .sed img {
+    width: 100%
+  }
+  .section2 {
+    width: 100%;
+    display: grid;
+    grid-template-areas: "sed" "PRIMIS" "ANTE" "TEMPUS" "ODIO" "AUGUE"
+  }
+  .contaner4 {
+    display: none
+  }
+  footer {
+    display: grid;
+    grid-template-areas: "inputs" 
+                        "contaner3";
+    width: 100%
+  }
+  .inputs {
+    width: 100%;
+  }
+  .NAME,
+  .NAME1 {
+    max-width: 90%;
+    
+  }
+  .ADDRESS,
+  .EMAIL,
+  .PHONE,
+  .SOCIAL {
+    margin-right: 0;
+    border-left: solid 1px var(--layout-color);
+    border-bottom: solid 1px var(--layout-color);
+
+  }
+}
+@media (max-width:750px){
+    
+    .license h1 {
+        font-size: 65px;
+    }
+    .NAME,
+    .NAME1 {
+    max-width: 80%
+  }
+  .inputs {
+    
+        margin: 5% 0;
+        padding-left: 1%;
+        width: 100%;
+  }
+    .ADDRESS,
+    .EMAIL,
+    .PHONE,
+    .SOCIAL {   
+        width: 100%;
+        padding: 2rem;
+      margin-right: 0;
+    }
+    .contaner3{
+        width: 70%;
+    }
+    .contaner2{
+        width: 100%;
+        margin: 0;
+      } 
+      .btn {
+        
+        width: 100%;
+        
+    }
+    .NAMElabel {
+        width: 80%;
+    }
+    .copyright {
+        margin: 0;
+    }
+}
+@media (max-width:560px){
+   
+   
+      
+    
+}

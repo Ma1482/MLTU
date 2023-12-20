@@ -1,0 +1,89 @@
+@media (min-width:1436px) {
+  .menu{
+      display: none;
+  }
+}
+@media (max-width:1436px) {
+    
+    header {
+        display: none
+      }
+      .show2{
+        visibility: visible;
+      }
+}
+
+@media (max-width:1000px) {
+footer {
+    display: grid;
+    grid-template-areas: "inputs" "contaner3";
+    width: 100%
+  }
+  .inputs {
+    width: 100%
+  }
+  .NAME,
+  .NAME1 {
+    max-width: 90%;
+    
+  }
+  .ADDRESS,
+  .EMAIL,
+  .PHONE,
+  .SOCIAL {
+    margin-right: 0;
+    border-left: solid 1px var(--layout-color);
+  border-bottom: solid 1px var(--layout-color);
+
+  }
+}
+@media (max-width:750px){
+    
+    .license h1 {
+        font-size: 65px;
+    }
+    .NAME,
+    .NAME1 {
+    max-width: 70%
+  }
+    .ADDRESS,
+    .EMAIL,
+    .PHONE,
+    .SOCIAL {   
+      margin-right: 0;
+    }
+    .contaner3{
+        max-width: 50%;
+    }
+    .copyright {
+        margin: 0;
+    }
+    .contaner2{
+        width: 100%;
+        margin: 0;
+      } 
+}
+@media (max-width:560px){
+    .NAME,
+    .NAME1,
+    .ADDRESS,
+    .EMAIL,
+    .PHONE,
+    .SOCIAL{
+      max-width: 100%
+    } 
+    .inputs button {
+        width: 90%;
+        margin-right: 1%;
+        
+    }
+    .inputs,
+    .contaner3{
+        width: 60%;
+    }
+    .date h1 {
+        font-size: 50px;
+        margin: 50px;
+    }
+    
+}
